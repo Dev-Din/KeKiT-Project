@@ -17,3 +17,22 @@
  --hover: rgb(83, 80, 80);
  --star-unicode: \2B50;
 }
+
+::-webkit-scrollbar {
+ width: 10px;
+ border-radius: 10px;
+ background-color: antiquewhite;
+}
+
+::-webkit-scrollbar-thumb {
+ border-radius: 10px;
+ background-color: rgb(233, 203, 163);
+}
+
+body {
+ width: 100%;
+ margin-left: 2px;
+ overflow: auto;
+ overflow-x: hidden;
+ height: auto;
+}
