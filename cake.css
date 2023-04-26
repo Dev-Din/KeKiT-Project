@@ -31,8 +31,43 @@
 
 body {
  width: 100%;
- margin-left: 2px;
  overflow: auto;
  overflow-x: hidden;
  height: auto;
 }
+
+/*----------------------Div 1--------------------------------*/
+
+.info {
+ align-items: center;
+ width: auto;
+ height: auto;
+ box-sizing: border-box;
+ border: 0;
+ border-radius: 0.5vw;
+ background-color: var(--peach);
+ display: flex;
+ justify-content: space-between;
+ font-weight: 400;
+}
+.info p:first-child{
+ margin-left: 1vw;
+}
+.info p {
+ padding: 0;
+ font-size: 1.2vw;
+}
+
+.info span p {
+ display: inline-block;
+ padding-right: 10px;
+ cursor: pointer;
+ text-decoration: none;
+ color: black;
+}
+
+.info span p:hover {
+ color: var(--hover);
+}
+
+/*----------------------Div 2--------------------------------*/
