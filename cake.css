@@ -123,3 +123,84 @@ input[type="search"]::placeholder {
  margin: 0 0.3vw 0.2vw;
 }
 
+/*----------------------Div 3--------------------------------*/
+.nav {
+ position: sticky;
+ top: 1vw;
+ z-index: 1;
+}
+
+.nav ul {
+ margin: 0;
+ margin-bottom: 1vw;
+ border-radius: 8px;
+ text-align: center;
+ list-style-type: none;
+ background-color: antiquewhite;
+}
+
+.nav ul li {
+ display: inline-flex;
+ margin: 0 3vw;
+ font-size: 1.3vw;
+ box-sizing: border-box;
+}
+
+.nav ul li a {
+ padding: 0.6vw 1.3vw;
+ text-decoration: none;
+ color: black;
+}
+
+.nav ul li a:hover {
+ text-decoration: underline;
+ color: #333;
+}
+
+.sub-menu-1 {
+ display: none;
+}
+
+.nav ul li:hover .sub-menu-1 {
+ position: absolute;
+ z-index: 1;
+ display: block;
+ background-color: antiquewhite;
+ width: 12vw;
+ margin-top: 2vw;
+ margin-left: -1.2vw;
+ padding: 0;
+}
+
+.nav ul li:hover .sub-menu-1 ul li {
+ width: 12vw;
+ margin-left: 1.3vw;
+ border-bottom: 0.1vw dotted;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.nav ul li:hover .sub-menu-1 ul li:nth-child(4) {
+ border-bottom: none;
+ align-content: center;
+}
+
+.hover-me .fa {
+ float: right;
+ top: 0.2vw;
+ margin-left: 3.5vw;
+}
+
+.sub-menu-2 {
+ display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+ position: absolute;
+ display: block;
+ width: 12vw;
+ background-color: antiquewhite;
+ margin-left: 12.05vw;
+}
+
+/*----------------------Div 4--------------------------------*/
