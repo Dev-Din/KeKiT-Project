@@ -305,6 +305,7 @@ hr {
  padding: 1vw;
 }
 
+
 .more h3 {
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  font-weight: bold;
@@ -316,3 +317,127 @@ hr {
  font-size: 2vw;
 }
 
+
+/*----------------------Div 7--------------------------------*/
+
+.pics {
+ box-sizing: border-box;
+ /* margin: 100vw 300px 0; */
+ display: flex;
+ margin: 0;
+}
+
+.pics-2 {
+ box-sizing: border-box;
+ margin: -0.5vw -0.1vw 0;
+ display: flex;
+}
+
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
+ background-size: cover;
+ width: 1vw;
+ height: 35vw;
+ margin: 0.6vw;
+ flex: 50%;
+}
+
+.pic-1 {
+ background: url(/img/Sky\ cakes.jpg) no-repeat;
+}
+
+.pic-2 {
+ background: url(/img/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
+}
+
+.pic-3 {
+ background: url(/img/Personalised-Cupcakes.jpg) no-repeat;
+}
+
+.pic-4 {
+ background: url(/img/google.jpg) no-repeat;
+}
+
+.pic-1 h3,
+.pic-2 h3,
+.pic-3 h3,
+.pic-4 h3 {
+ margin: 20vw 0 0 2vw;
+ font-size: 30px;
+ color: #333;
+ font-weight: 600;
+}
+
+.bttn {
+ position: relative;
+ margin-left: 20px;
+ margin-top: 40px;
+ bottom: 0;
+ width: 195px;
+ height: 50px;
+ color: #333;
+ padding: 8px 12px;
+ font-size: 20px;
+ cursor: pointer;
+ transition: all 0.3s ease;
+ position: relative;
+ display: inline-block;
+ outline: none;
+ overflow: hidden;
+ border-radius: 5px;
+ border: none;
+ background-color: antiquewhite;
+}
+
+.bttn:hover {
+ border-radius: 5px;
+ padding-right: 44px;
+ padding-left: 8px;
+ padding-top: -300px;
+ width: 220px;
+ background-color: #333;
+ color: antiquewhite;
+}
+
+.bttn:hover:after {
+ opacity: 1;
+ right: 10px;
+}
+
+.bttn:after {
+ content: "\00BB";
+ position: absolute;
+ opacity: 0;
+ font-size: 20px;
+ line-height: 40px;
+ top: 0;
+ right: -20px;
+ transition: 0.6s;
+}
+
+/*----------------------Div 6 (Same CSS)--------------------------------*/
+
+.more2 {
+ box-sizing: border-box;
+ width: auto;
+ height: auto;
+ display: block;
+ margin-top: 1vw;
+ text-align: center;
+ line-height: 3.6vw;
+ color: #333;
+ padding: 1vw;
+}
+
+.more2 h3 {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ font-size: 3.4vw;
+ letter-spacing: 0.3vw;
+}
+
+.more2 p {
+ font-size: 2vw;
+}
