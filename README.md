@@ -1,6 +1,6 @@
 # KeKiT Website
 
-<u>Summary</>
+<u>Summary</u>
 - Used Figma software for design. i.e Logo and Favicon
 
 
