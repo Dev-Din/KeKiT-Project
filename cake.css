@@ -71,3 +71,55 @@ body {
 }
 
 /*----------------------Div 2--------------------------------*/
+.logo {
+ box-sizing: border-box;
+ border: 0;
+ width: 100%;
+ height: auto;
+ display: flex;
+ justify-content: space-around;
+ margin-top: -0.6vw;
+}
+
+.logo img {
+ width: 10vw;
+ padding: 1vw 0;
+}
+
+input[type="search"] {
+ position: relative;
+ text-indent: 2vw;
+ width: 50vw;
+ height: 2vw;
+ text-transform: capitalize;
+ font-size: 1.2vw;
+ font-weight: 500;
+ outline: none;
+ margin-top: 3vw;
+ padding: 0 1vw;
+ border-radius: 2vw;
+ border: 0;
+ background-color: var(--peach);
+}
+
+input[type="search"]::placeholder {
+ background-image: url(/img/Search.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ font-size: 1.2vw;
+ font-weight: 500;
+ background-size: 1.4vw;
+ color: #333;
+ background-color: var(--peach);
+}
+
+.user img {
+ margin-top: 1.7vw;
+ width: 2.5vw;
+ cursor: pointer;
+}
+
+.hr1 {
+ margin: 0 0.3vw 0.2vw;
+}
+
