@@ -61,6 +61,7 @@ body {
 .info span p {
  display: inline-block;
  padding-right: 10px;
+margin-left: 2vw;
  cursor: pointer;
  text-decoration: none;
  color: black;
@@ -360,10 +361,25 @@ hr {
 .pic-1 h3,.pic-2 h3,.pic-3 h3,.pic-4 h3 {
  margin: 20vw 0 0 2vw;
  font-size: 2.7vw;
- color: #333;
+ color: whitesmoke;
+ background-color: #333;
  font-weight: 600;
 }
+.pic-1 h3{
+ width: 18vw;
+}
 
+.pic-2 h3{
+ width: 20.5vw;
+}
+
+.pic-3 h3{
+ width: 22.6vw;
+}
+
+.pic-4 h3{
+ width: 20vw;
+}
 .bttn {
  position: relative;
  margin-left: 2vw;
