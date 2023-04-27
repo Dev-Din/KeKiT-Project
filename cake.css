@@ -468,8 +468,8 @@ hr {
 }
 
 .block-1, .block-2, .block-3, .block-4{
- background-size: cover;
- height: 28vw;
+ background-size: contain;
+ height: 29vw;
  width: 20vw;
  margin-bottom: 2vw;
  border-radius: 2vw;

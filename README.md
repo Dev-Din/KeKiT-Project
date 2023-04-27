@@ -8,7 +8,7 @@
 - Navigation bar with different categories of cupcakes
 
 ## CSS
-
-
+ - Created a responsive page.
+ - Compressed images using compressing softwares to enhance the speed of my site. 
 
 ## JavaScript
