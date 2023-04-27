@@ -103,7 +103,7 @@ input[type="search"] {
 }
 
 input[type="search"]::placeholder {
- background-image: url(/img/Search.png);
+ background-image: url(./img/Search.png);
  background-size: cover;
  background-repeat: no-repeat;
  font-size: 1.2vw;
@@ -342,19 +342,19 @@ hr {
 }
 
 .pic-1 {
- background: url(/img/Sky\ cakes.jpg) no-repeat;
+ background: url(./img/Sky\ cakes.jpg) no-repeat;
 }
 
 .pic-2 {
- background: url(/img/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
+ background: url(./img/Fill-You-Own-Personalised-Cupcakes.jpg) no-repeat;
 }
 
 .pic-3 {
- background: url(/img/Personalised-Cupcakes.jpg) no-repeat;
+ background: url(./img/Personalised-Cupcakes.jpg) no-repeat;
 }
 
 .pic-4 {
- background: url(/img/google.jpg) no-repeat;
+ background: url(./img/google.jpg) no-repeat;
 }
 
 .pic-1 h3,.pic-2 h3,.pic-3 h3,.pic-4 h3 {
@@ -452,19 +452,19 @@ hr {
 }
 
 .block-1 {
- background: url(/img/Logo-Cupcakes.jpg) no-repeat;
+ background: url(./img/Logo-Cupcakes.jpg) no-repeat;
 }
 
 .block-2 {
- background: url(/img/Message-Cupcakes.jpg) no-repeat;
+ background: url(./img/Message-Cupcakes.jpg) no-repeat;
 }
 
 .block-3 {
- background: url(/img/Photo-Cupcakes.jpg) no-repeat;
+ background: url(./img/Photo-Cupcakes.jpg) no-repeat;
 }
 
 .block-4 {
- background: url(/img/Fill-Your-Own-Cupcakes.jpg) no-repeat;
+ background: url(./img/Fill-Your-Own-Cupcakes.jpg) no-repeat;
 }
 
 .block-1, .block-2, .block-3, .block-4{
