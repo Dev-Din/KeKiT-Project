@@ -227,7 +227,7 @@ hr {
  width: auto;
  height: 50vw;
  margin: 0 0.2vw;
- background: url(/img/bday.png) no-repeat;
+ background: url(./img/bday.png) no-repeat;
  border-radius: 1vw;
  background-size: 100%, 0;
  display: flex;
