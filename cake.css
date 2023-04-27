@@ -333,10 +333,7 @@ hr {
  display: flex;
 }
 
-.pic-1,
-.pic-2,
-.pic-3,
-.pic-4 {
+.pic-1,.pic-2,.pic-3,.pic-4 {
  background-size: cover;
  width: 1vw;
  height: 35vw;
@@ -360,60 +357,57 @@ hr {
  background: url(/img/google.jpg) no-repeat;
 }
 
-.pic-1 h3,
-.pic-2 h3,
-.pic-3 h3,
-.pic-4 h3 {
+.pic-1 h3,.pic-2 h3,.pic-3 h3,.pic-4 h3 {
  margin: 20vw 0 0 2vw;
- font-size: 30px;
+ font-size: 2.7vw;
  color: #333;
  font-weight: 600;
 }
 
 .bttn {
  position: relative;
- margin-left: 20px;
- margin-top: 40px;
+ margin-left: 2vw;
+ margin-top: 3vw;
  bottom: 0;
- width: 195px;
- height: 50px;
+ width: 16vw;
+ height: 4vw;
  color: #333;
- padding: 8px 12px;
- font-size: 20px;
+ padding: 0.2vw 1vw;
+ font-size: 1.3vw;
  cursor: pointer;
  transition: all 0.3s ease;
  position: relative;
  display: inline-block;
  outline: none;
  overflow: hidden;
- border-radius: 5px;
+ border-radius: 1vw;
  border: none;
  background-color: antiquewhite;
 }
 
 .bttn:hover {
- border-radius: 5px;
- padding-right: 44px;
- padding-left: 8px;
- padding-top: -300px;
- width: 220px;
+ border-radius: 1vw;
+ padding-right: 2vw;
+ padding-left: 1vw;
+ padding-top: -30vw;
+ width: 17vw;
  background-color: #333;
  color: antiquewhite;
 }
 
 .bttn:hover:after {
  opacity: 1;
- right: 10px;
+ right: 1vw;
 }
 
 .bttn:after {
  content: "\00BB";
  position: absolute;
  opacity: 0;
- font-size: 20px;
- line-height: 40px;
+ font-size: 1.7vw;
+ line-height: 3.6vw;
  top: 0;
- right: -20px;
+ right: -2vw;
  transition: 0.6s;
 }
 
@@ -441,3 +435,95 @@ hr {
 .more2 p {
  font-size: 2vw;
 }
+
+/*----------------------Div 8--------------------------------*/
+.d-block {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.block-1:hover,
+.block-2:hover,
+.block-3:hover,
+.block-4:hover {
+ transition: ease-in-out 1s;
+ transform: scale(1.1);
+}
+
+.block-1 {
+ background: url(/img/Logo-Cupcakes.jpg) no-repeat;
+}
+
+.block-2 {
+ background: url(/img/Message-Cupcakes.jpg) no-repeat;
+}
+
+.block-3 {
+ background: url(/img/Photo-Cupcakes.jpg) no-repeat;
+}
+
+.block-4 {
+ background: url(/img/Fill-Your-Own-Cupcakes.jpg) no-repeat;
+}
+
+.block-1, .block-2, .block-3, .block-4{
+ background-size: cover;
+ height: 28vw;
+ width: 20vw;
+ margin-bottom: 2vw;
+ border-radius: 2vw;
+}
+.frame {
+ box-sizing: border-box;
+}
+
+.frame h4,
+p {
+ margin-left: -0.9vw;
+}
+
+.frame h4 {
+ font-size: 1.9vw;
+ font-weight: 600;
+ line-height: 2.4vw;
+}
+
+.frame p {
+ font-size: 1.4vw;
+ font-weight: 600;
+ color: red;
+}
+
+.frame h4:nth-child(1) {
+ margin: 0;
+}
+
+.frame p:nth-child(1) {
+ margin: 0;
+}
+
+.frame h4:nth-child(4) {
+ margin: 0;
+}
+
+.frame h4:nth-child(4) {
+ margin: 0;
+}
+
+.frame .star {
+ margin-top: 2vw;
+ font-size: 1.6vw;
+ border: 0;
+ outline: none;
+ color: gold;
+ letter-spacing: 0.4vw;
+}
+
+.frame .rating {
+ color: rgb(44, 44, 220);
+ letter-spacing: 0;
+ font-size: 1.5vw;
+}
+
+/*----------------------Div 9--------------------------------*/
