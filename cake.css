@@ -342,6 +342,23 @@ hr {
  flex: 50%;
 }
 
+.like {
+ position: absolute;
+ top: 2vw;
+ left: 5vw;
+ background: none;
+ cursor: pointer;
+ border: none;
+}
+
+.like img{
+ width: 3vw;
+}
+
+.like img:hover{
+ transition: all linear 0.4s;
+ transform: scale(1.3);
+}
 .pic-1 {
  background: url(./img/Sky\ cakes.jpg) no-repeat;
 }
