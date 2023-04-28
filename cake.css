@@ -357,7 +357,7 @@ hr {
 
 .like img:hover{
  transition: all linear 0.4s;
- transform: scale(1.3);
+ transform: scale(1.13);
 }
 .pic-1 {
  background: url(./img/Sky\ cakes.jpg) no-repeat;
