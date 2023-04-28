@@ -12,3 +12,5 @@
  - Compressed images using compressing softwares to enhance the speed of my site. 
 
 ## JavaScript
+ - Created an interactive like button, which in my projections will be used as a button to send liked cakes to wishlists.
+  
